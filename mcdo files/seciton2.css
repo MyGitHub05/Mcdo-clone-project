@@ -1,0 +1,92 @@
+.section-2{
+    height: 600px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+    
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 55px;
+    column-gap: 75px;
+    
+}
+.section-2-grid{
+    height: 262px;
+    width: 262px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.section-2-grid .cats{
+    transition: transform 1s;
+
+}
+.section-2-grid:hover .cats{
+     transform:scale(1.1);
+}
+
+
+.cats{
+    width: 100%;
+    height: 262px;
+    border-radius: 30px;
+   
+}
+
+
+.section-1-title{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 2px;
+    left: 90px;
+    color: white;
+}
+.section-2-title{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 2px;
+    left: 110px;
+    color: white;
+}
+.section-3-title{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 2px;
+    left: 120px;
+    color: white;
+}
+.section-4-title{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 2px;
+    left: 80px;
+    color: white;
+}
+.section-5-title{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 2px;
+    left: 17px;
+    color: white;
+    width: 200px;
+    
+}
+.section-6-title{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 2px;
+    left: 120px;
+    color: white;
+}

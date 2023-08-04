@@ -1,0 +1,92 @@
+.footer{
+    border: 1px solid blue;
+    height: 200px;
+    margin-top: 23px;
+    background-color: #ffc600;    
+}
+.footer-main-div{
+    display: flex;
+}
+
+.div1{
+    border: 1px solid black;
+    width: 270px;
+    height: 200px;
+    display: flex;
+}
+.div1-in-div1{
+    border: 1px solid red;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.div-img{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid red;
+    height: 70px;
+}
+.div-img img{
+    width: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+.div-mcdelivery{
+    border: 1px solid blue;
+    height: 20px;
+}
+.div-mcdelivery p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.div2-in-div1 {
+    border: 1px solid blue;
+    width: 110px;
+    display: inline-block;
+    height: 90px;
+    padding-top: 5px;
+    
+} 
+.div2-in-div1 img {
+    width: 110px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.div2{
+    border: 1px solid black;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.div2-p1{
+    border: 1px solid red;
+}
+.div2 p{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    height: 15px;
+}
+.div2-p2 {
+    border: 1px solid red;
+    margin-left: 50px;
+}
+
+.div3{
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+}
+
+
+
